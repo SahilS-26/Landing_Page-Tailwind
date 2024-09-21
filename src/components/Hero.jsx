@@ -1,13 +1,42 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import {
+  faArrowRight,
+  faHandBackFist,
+  faLaptop,
+} from "@fortawesome/free-solid-svg-icons";
 import { faFileCode } from "@fortawesome/fontawesome-free-regular";
+import downArrow from "../assets/asset 2.svg";
+import c1 from "../assets/asset 3.png";
+import c2 from "../assets/asset 4.png";
+import c3 from "../assets/asset 5.png";
+import c4 from "../assets/asset 6.png";
+import c5 from "../assets/asset 7.png";
+import c6 from "../assets/asset 8.png";
+import c7 from "../assets/asset 9.png";
+import c8 from "../assets/asset 10.png";
+import c9 from "../assets/asset 11.png";
+import c10 from "../assets/asset 12.png";
+import c11 from "../assets/asset 13.png";
+import c12 from "../assets/asset 14.png";
+import c13 from "../assets/asset 15.png";
+import c14 from "../assets/asset 16.png";
+import c15 from "../assets/asset 17.png";
+import c16 from "../assets/asset 18.png";
+import c17 from "../assets/asset 19.png";
+import c18 from "../assets/asset 20.png";
+import c19 from "../assets/asset 21.png";
+import c20 from "../assets/asset 22.png";
+import c21 from "../assets/asset 23.png";
+import c22 from "../assets/asset 24.png";
+import c23 from "../assets/asset 25.png";
+import c24 from "../assets/asset 26.png";
 
 export default function Hero() {
   return (
     <>
       <div
         id="hero"
-        className="min-h-screen bg-gradient-to-br from-purple-50 via-orange-50 to-trasparent"
+        className="min-h-screen bg-gradient-to-b from-purple-50 via-orange-50 to-trasparent"
       >
         <div
           id="hero-container"
@@ -35,13 +64,13 @@ export default function Hero() {
             </div>
 
             <div className="flex gap-2 justify-center items-center text-gray-500">
-              <FontAwesomeIcon icon={faFileCode} />
-              <p>Code Optional</p>
+              <FontAwesomeIcon icon={faHandBackFist} />
+              <p>Drag & drop builder</p>
             </div>
 
             <div className="flex gap-2 justify-center items-center text-gray-500">
-              <FontAwesomeIcon icon={faFileCode} />
-              <p>Code Optional</p>
+              <FontAwesomeIcon icon={faLaptop} />
+              <p>Windows, Mac, Linux</p>
             </div>
           </div>
 
@@ -64,6 +93,254 @@ export default function Hero() {
             <button className="px-8 py-3 font-semibold rounded-lg border bg-white border-gray-400 hover:border-gray-800">
               Read Docs
             </button>
+          </div>
+        </div>
+
+        <div id="companies-container" className="flex flex-col gap-10">
+          <div id="companies-title" className="flex justify-center gap-2">
+            <img className="translate-y-2" src={downArrow} alt="" />
+            <span className="font-medium">APPS POWERED BY TODESKTOP</span>
+            <img
+              className="translate-y-2 -scale-x-100"
+              src={downArrow}
+              alt=""
+            />
+          </div>
+
+          <div id="line-group" className="flex flex-col gap-4">
+            <div
+              id="line1"
+              className="flex gap-4 w-screen -translate-x-48 transition-transform ease-linear"
+            >
+              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
+                <img src={c1} className="w-12 h-12 md:w-16 md:h-16" alt="" />
+                <span className="text-[12px] md:text-[16px] font-semibold">
+                  Unbounce
+                </span>
+              </div>
+              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
+                <img src={c2} className="w-12 h-12 md:w-16 md:h-16" alt="" />
+                <span className="text-[12px] md:text-[16px] font-semibold">
+                  Unbounce
+                </span>
+              </div>
+              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
+                <img src={c3} className="w-12 h-12 md:w-16 md:h-16" alt="" />
+                <span className="text-[12px] md:text-[16px] font-semibold">
+                  Unbounce
+                </span>
+              </div>
+              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
+                <img src={c4} className="w-12 h-12 md:w-16 md:h-16" alt="" />
+                <span className="text-[12px] md:text-[16px] font-semibold">
+                  Unbounce
+                </span>
+              </div>
+              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
+                <img src={c5} className="w-12 h-12 md:w-16 md:h-16" alt="" />
+                <span className="text-[12px] md:text-[16px] font-semibold">
+                  Unbounce
+                </span>
+              </div>
+              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
+                <img src={c6} className="w-12 h-12 md:w-16 md:h-16" alt="" />
+                <span className="text-[12px] md:text-[16px] font-semibold">
+                  Unbounce
+                </span>
+              </div>
+              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
+                <img src={c7} className="w-12 h-12 md:w-16 md:h-16" alt="" />
+                <span className="text-[12px] md:text-[16px] font-semibold">
+                  Unbounce
+                </span>
+              </div>
+              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
+                <img src={c8} className="w-12 h-12 md:w-16 md:h-16" alt="" />
+                <span className="text-[12px] md:text-[16px] font-semibold">
+                  Unbounce
+                </span>
+              </div>
+              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
+                <img src={c9} className="w-12 h-12 md:w-16 md:h-16" alt="" />
+                <span className="text-[12px] md:text-[16px] font-semibold">
+                  Unbounce
+                </span>
+              </div>
+              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
+                <img src={c10} className="w-12 h-12 md:w-16 md:h-16" alt="" />
+                <span className="text-[12px] md:text-[16px] font-semibold">
+                  Unbounce
+                </span>
+              </div>
+              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
+                <img src={c11} className="w-12 h-12 md:w-16 md:h-16" alt="" />
+                <span className="text-[12px] md:text-[16px] font-semibold">
+                  Unbounce
+                </span>
+              </div>
+              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
+                <img src={c12} className="w-12 h-12 md:w-16 md:h-16" alt="" />
+                <span className="text-[12px] md:text-[16px] font-semibold">
+                  Unbounce
+                </span>
+              </div>
+            </div>
+
+            <div
+              id="line2"
+              className="flex gap-4 w-screen -translate-x-36 transition-transform ease-linear"
+            >
+              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
+                <img src={c13} className="w-12 h-12 md:w-16 md:h-16" alt="" />
+                <span className="text-[12px] md:text-[16px] font-semibold">
+                  Unbounce
+                </span>
+              </div>
+              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
+                <img src={c14} className="w-12 h-12 md:w-16 md:h-16" alt="" />
+                <span className="text-[12px] md:text-[16px] font-semibold">
+                  Unbounce
+                </span>
+              </div>
+              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
+                <img src={c15} className="w-12 h-12 md:w-16 md:h-16" alt="" />
+                <span className="text-[12px] md:text-[16px] font-semibold">
+                  Unbounce
+                </span>
+              </div>
+              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
+                <img src={c16} className="w-12 h-12 md:w-16 md:h-16" alt="" />
+                <span className="text-[12px] md:text-[16px] font-semibold">
+                  Unbounce
+                </span>
+              </div>
+              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
+                <img src={c17} className="w-12 h-12 md:w-16 md:h-16" alt="" />
+                <span className="text-[12px] md:text-[16px] font-semibold">
+                  Unbounce
+                </span>
+              </div>
+              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
+                <img src={c18} className="w-12 h-12 md:w-16 md:h-16" alt="" />
+                <span className="text-[12px] md:text-[16px] font-semibold">
+                  Unbounce
+                </span>
+              </div>
+              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
+                <img src={c19} className="w-12 h-12 md:w-16 md:h-16" alt="" />
+                <span className="text-[12px] md:text-[16px] font-semibold">
+                  Unbounce
+                </span>
+              </div>
+              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
+                <img src={c20} className="w-12 h-12 md:w-16 md:h-16" alt="" />
+                <span className="text-[12px] md:text-[16px] font-semibold">
+                  Unbounce
+                </span>
+              </div>
+              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
+                <img src={c21} className="w-12 h-12 md:w-16 md:h-16" alt="" />
+                <span className="text-[12px] md:text-[16px] font-semibold">
+                  Unbounce
+                </span>
+              </div>
+              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
+                <img src={c22} className="w-12 h-12 md:w-16 md:h-16" alt="" />
+                <span className="text-[12px] md:text-[16px] font-semibold">
+                  Unbounce
+                </span>
+              </div>
+              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
+                <img src={c23} className="w-12 h-12 md:w-16 md:h-16" alt="" />
+                <span className="text-[12px] md:text-[16px] font-semibold">
+                  Unbounce
+                </span>
+              </div>
+              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
+                <img src={c24} className="w-12 h-12 md:w-16 md:h-16" alt="" />
+                <span className="text-[12px] md:text-[16px] font-semibold">
+                  Unbounce
+                </span>
+              </div>
+            </div>
+
+            <div
+              id="line3"
+              className="flex md:hidden gap-4 w-screen -translate-x-48 transition-transform ease-linear"
+            >
+              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
+                <img src={c12} className="w-12 h-12 md:w-16 md:h-16" alt="" />
+                <span className="text-[12px] md:text-[16px] font-semibold">
+                  Unbounce
+                </span>
+              </div>
+              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
+                <img src={c13} className="w-12 h-12 md:w-16 md:h-16" alt="" />
+                <span className="text-[12px] md:text-[16px] font-semibold">
+                  Unbounce
+                </span>
+              </div>
+              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
+                <img src={c14} className="w-12 h-12 md:w-16 md:h-16" alt="" />
+                <span className="text-[12px] md:text-[16px] font-semibold">
+                  Unbounce
+                </span>
+              </div>
+              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
+                <img src={c1} className="w-12 h-12 md:w-16 md:h-16" alt="" />
+                <span className="text-[12px] md:text-[16px] font-semibold">
+                  Unbounce
+                </span>
+              </div>
+              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
+                <img src={c2} className="w-12 h-12 md:w-16 md:h-16" alt="" />
+                <span className="text-[12px] md:text-[16px] font-semibold">
+                  Unbounce
+                </span>
+              </div>
+              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
+                <img src={c3} className="w-12 h-12 md:w-16 md:h-16" alt="" />
+                <span className="text-[12px] md:text-[16px] font-semibold">
+                  Unbounce
+                </span>
+              </div>
+              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
+                <img src={c9} className="w-12 h-12 md:w-16 md:h-16" alt="" />
+                <span className="text-[12px] md:text-[16px] font-semibold">
+                  Unbounce
+                </span>
+              </div>
+              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
+                <img src={c10} className="w-12 h-12 md:w-16 md:h-16" alt="" />
+                <span className="text-[12px] md:text-[16px] font-semibold">
+                  Unbounce
+                </span>
+              </div>
+              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
+                <img src={c11} className="w-12 h-12 md:w-16 md:h-16" alt="" />
+                <span className="text-[12px] md:text-[16px] font-semibold">
+                  Unbounce
+                </span>
+              </div>
+              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
+                <img src={c21} className="w-12 h-12 md:w-16 md:h-16" alt="" />
+                <span className="text-[12px] md:text-[16px] font-semibold">
+                  Unbounce
+                </span>
+              </div>
+              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
+                <img src={c22} className="w-12 h-12 md:w-16 md:h-16" alt="" />
+                <span className="text-[12px] md:text-[16px] font-semibold">
+                  Unbounce
+                </span>
+              </div>
+              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
+                <img src={c23} className="w-12 h-12 md:w-16 md:h-16" alt="" />
+                <span className="text-[12px] md:text-[16px] font-semibold">
+                  Unbounce
+                </span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
