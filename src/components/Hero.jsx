@@ -112,238 +112,67 @@ export default function Hero() {
               id="line1"
               className="flex gap-4 w-screen -translate-x-48 transition-transform ease-linear"
             >
-              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
-                <img src={c1} className="w-12 h-12 md:w-16 md:h-16" alt="" />
-                <span className="text-[12px] md:text-[16px] font-semibold">
-                  Unbounce
-                </span>
-              </div>
-              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
-                <img src={c2} className="w-12 h-12 md:w-16 md:h-16" alt="" />
-                <span className="text-[12px] md:text-[16px] font-semibold">
-                  Unbounce
-                </span>
-              </div>
-              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
-                <img src={c3} className="w-12 h-12 md:w-16 md:h-16" alt="" />
-                <span className="text-[12px] md:text-[16px] font-semibold">
-                  Unbounce
-                </span>
-              </div>
-              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
-                <img src={c4} className="w-12 h-12 md:w-16 md:h-16" alt="" />
-                <span className="text-[12px] md:text-[16px] font-semibold">
-                  Unbounce
-                </span>
-              </div>
-              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
-                <img src={c5} className="w-12 h-12 md:w-16 md:h-16" alt="" />
-                <span className="text-[12px] md:text-[16px] font-semibold">
-                  Unbounce
-                </span>
-              </div>
-              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
-                <img src={c6} className="w-12 h-12 md:w-16 md:h-16" alt="" />
-                <span className="text-[12px] md:text-[16px] font-semibold">
-                  Unbounce
-                </span>
-              </div>
-              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
-                <img src={c7} className="w-12 h-12 md:w-16 md:h-16" alt="" />
-                <span className="text-[12px] md:text-[16px] font-semibold">
-                  Unbounce
-                </span>
-              </div>
-              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
-                <img src={c8} className="w-12 h-12 md:w-16 md:h-16" alt="" />
-                <span className="text-[12px] md:text-[16px] font-semibold">
-                  Unbounce
-                </span>
-              </div>
-              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
-                <img src={c9} className="w-12 h-12 md:w-16 md:h-16" alt="" />
-                <span className="text-[12px] md:text-[16px] font-semibold">
-                  Unbounce
-                </span>
-              </div>
-              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
-                <img src={c10} className="w-12 h-12 md:w-16 md:h-16" alt="" />
-                <span className="text-[12px] md:text-[16px] font-semibold">
-                  Unbounce
-                </span>
-              </div>
-              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
-                <img src={c11} className="w-12 h-12 md:w-16 md:h-16" alt="" />
-                <span className="text-[12px] md:text-[16px] font-semibold">
-                  Unbounce
-                </span>
-              </div>
-              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
-                <img src={c12} className="w-12 h-12 md:w-16 md:h-16" alt="" />
-                <span className="text-[12px] md:text-[16px] font-semibold">
-                  Unbounce
-                </span>
-              </div>
+              <ImageName imgName={c1} />
+              <ImageName imgName={c2} />
+              <ImageName imgName={c3} />
+              <ImageName imgName={c4} />
+              <ImageName imgName={c5} />
+              <ImageName imgName={c6} />
+              <ImageName imgName={c7} />
+              <ImageName imgName={c8} />
+              <ImageName imgName={c9} />
+              <ImageName imgName={c10} />
+              <ImageName imgName={c11} />
+              <ImageName imgName={c12} />
             </div>
 
             <div
               id="line2"
               className="flex gap-4 w-screen -translate-x-36 transition-transform ease-linear"
             >
-              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
-                <img src={c13} className="w-12 h-12 md:w-16 md:h-16" alt="" />
-                <span className="text-[12px] md:text-[16px] font-semibold">
-                  Unbounce
-                </span>
-              </div>
-              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
-                <img src={c14} className="w-12 h-12 md:w-16 md:h-16" alt="" />
-                <span className="text-[12px] md:text-[16px] font-semibold">
-                  Unbounce
-                </span>
-              </div>
-              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
-                <img src={c15} className="w-12 h-12 md:w-16 md:h-16" alt="" />
-                <span className="text-[12px] md:text-[16px] font-semibold">
-                  Unbounce
-                </span>
-              </div>
-              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
-                <img src={c16} className="w-12 h-12 md:w-16 md:h-16" alt="" />
-                <span className="text-[12px] md:text-[16px] font-semibold">
-                  Unbounce
-                </span>
-              </div>
-              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
-                <img src={c17} className="w-12 h-12 md:w-16 md:h-16" alt="" />
-                <span className="text-[12px] md:text-[16px] font-semibold">
-                  Unbounce
-                </span>
-              </div>
-              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
-                <img src={c18} className="w-12 h-12 md:w-16 md:h-16" alt="" />
-                <span className="text-[12px] md:text-[16px] font-semibold">
-                  Unbounce
-                </span>
-              </div>
-              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
-                <img src={c19} className="w-12 h-12 md:w-16 md:h-16" alt="" />
-                <span className="text-[12px] md:text-[16px] font-semibold">
-                  Unbounce
-                </span>
-              </div>
-              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
-                <img src={c20} className="w-12 h-12 md:w-16 md:h-16" alt="" />
-                <span className="text-[12px] md:text-[16px] font-semibold">
-                  Unbounce
-                </span>
-              </div>
-              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
-                <img src={c21} className="w-12 h-12 md:w-16 md:h-16" alt="" />
-                <span className="text-[12px] md:text-[16px] font-semibold">
-                  Unbounce
-                </span>
-              </div>
-              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
-                <img src={c22} className="w-12 h-12 md:w-16 md:h-16" alt="" />
-                <span className="text-[12px] md:text-[16px] font-semibold">
-                  Unbounce
-                </span>
-              </div>
-              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
-                <img src={c23} className="w-12 h-12 md:w-16 md:h-16" alt="" />
-                <span className="text-[12px] md:text-[16px] font-semibold">
-                  Unbounce
-                </span>
-              </div>
-              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
-                <img src={c24} className="w-12 h-12 md:w-16 md:h-16" alt="" />
-                <span className="text-[12px] md:text-[16px] font-semibold">
-                  Unbounce
-                </span>
-              </div>
+              <ImageName imgName={c13} />
+              <ImageName imgName={c14} />
+              <ImageName imgName={c15} />
+              <ImageName imgName={c16} />
+              <ImageName imgName={c17} />
+              <ImageName imgName={c18} />
+              <ImageName imgName={c19} />
+              <ImageName imgName={c20} />
+              <ImageName imgName={c21} />
+              <ImageName imgName={c22} />
+              <ImageName imgName={c23} />
+              <ImageName imgName={c24} />
             </div>
 
             <div
               id="line3"
               className="flex md:hidden gap-4 w-screen -translate-x-48 transition-transform ease-linear"
             >
-              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
-                <img src={c12} className="w-12 h-12 md:w-16 md:h-16" alt="" />
-                <span className="text-[12px] md:text-[16px] font-semibold">
-                  Unbounce
-                </span>
-              </div>
-              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
-                <img src={c13} className="w-12 h-12 md:w-16 md:h-16" alt="" />
-                <span className="text-[12px] md:text-[16px] font-semibold">
-                  Unbounce
-                </span>
-              </div>
-              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
-                <img src={c14} className="w-12 h-12 md:w-16 md:h-16" alt="" />
-                <span className="text-[12px] md:text-[16px] font-semibold">
-                  Unbounce
-                </span>
-              </div>
-              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
-                <img src={c1} className="w-12 h-12 md:w-16 md:h-16" alt="" />
-                <span className="text-[12px] md:text-[16px] font-semibold">
-                  Unbounce
-                </span>
-              </div>
-              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
-                <img src={c2} className="w-12 h-12 md:w-16 md:h-16" alt="" />
-                <span className="text-[12px] md:text-[16px] font-semibold">
-                  Unbounce
-                </span>
-              </div>
-              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
-                <img src={c3} className="w-12 h-12 md:w-16 md:h-16" alt="" />
-                <span className="text-[12px] md:text-[16px] font-semibold">
-                  Unbounce
-                </span>
-              </div>
-              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
-                <img src={c9} className="w-12 h-12 md:w-16 md:h-16" alt="" />
-                <span className="text-[12px] md:text-[16px] font-semibold">
-                  Unbounce
-                </span>
-              </div>
-              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
-                <img src={c10} className="w-12 h-12 md:w-16 md:h-16" alt="" />
-                <span className="text-[12px] md:text-[16px] font-semibold">
-                  Unbounce
-                </span>
-              </div>
-              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
-                <img src={c11} className="w-12 h-12 md:w-16 md:h-16" alt="" />
-                <span className="text-[12px] md:text-[16px] font-semibold">
-                  Unbounce
-                </span>
-              </div>
-              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
-                <img src={c21} className="w-12 h-12 md:w-16 md:h-16" alt="" />
-                <span className="text-[12px] md:text-[16px] font-semibold">
-                  Unbounce
-                </span>
-              </div>
-              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
-                <img src={c22} className="w-12 h-12 md:w-16 md:h-16" alt="" />
-                <span className="text-[12px] md:text-[16px] font-semibold">
-                  Unbounce
-                </span>
-              </div>
-              <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
-                <img src={c23} className="w-12 h-12 md:w-16 md:h-16" alt="" />
-                <span className="text-[12px] md:text-[16px] font-semibold">
-                  Unbounce
-                </span>
-              </div>
+              <ImageName imgName={c12} />
+              <ImageName imgName={c13} />
+              <ImageName imgName={c14} />
+              <ImageName imgName={c1} />
+              <ImageName imgName={c2} />
+              <ImageName imgName={c3} />
+              <ImageName imgName={c9} />
+              <ImageName imgName={c10} />
+              <ImageName imgName={c11} />
+              <ImageName imgName={c21} />
+              <ImageName imgName={c22} />
+              <ImageName imgName={c23} />
             </div>
           </div>
         </div>
       </div>
     </>
+  );
+}
+
+function ImageName({ imgName }) {
+  return (
+    <div className="flex flex-col gap-2 min-w-24 min-h-24 justify-center items-center bg-white rounded-xl  border border-gray-300 md:w-32 md:h-32">
+      <img src={imgName} className="w-12 h-12 md:w-16 md:h-16" alt="" />
+      <span className="text-[12px] md:text-[16px] font-semibold">Unbounce</span>
+    </div>
   );
 }
