@@ -15,7 +15,7 @@ export default function Hero() {
         >
           <div
             id="version-text"
-            className="flex items-center gap-2 bg-yellow-50 border border-yellow-300 my-6 px-4 py-1 w-fit rounded-lg shadow-md hover:shadow-lg hover:-translate-y-1 transition group"
+            className="flex items-center gap-2 bg-yellow-50 border border-yellow-300 my-6 px-2 py-1 w-fit rounded-lg shadow-md hover:shadow-lg hover:-translate-y-1 transition group"
           >
             <div className="w-2 h-2 bg-yellow-400 border border-yellow-600 rounded-full"></div>
             <p className="font-medium font-display text-yellow-600 ">
