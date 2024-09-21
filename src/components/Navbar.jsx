@@ -13,9 +13,9 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="p-3 bg-white flex justify-between items-center">
+      <nav className="p-3 bg-white flex justify-between items-center ">
         {/* 1 */}
-        <LogoName />
+        <LogoName className="flex-1" />
 
         {/*2 - Desktop nav -- nav links*/}
         <>
@@ -37,11 +37,13 @@ export default function Navbar() {
             </a>
           </div>
 
-          <button className="hidden lg:flex gap-2 items-center border border-gray-400 rounded-lg px-6 py-2 hover:border-gray-600">
-            <img src={btnImage} alt="" />
-            <span>Electron Developers</span>
-            <FontAwesomeIcon icon={faArrowRight} />
-          </button>
+          <div className="hidden lg:flex flex-1 justify-end">
+            <button className="  flex gap-2 items-center border border-gray-400 rounded-lg px-6 py-2 hover:border-gray-600">
+              <img src={btnImage} alt="" />
+              <span>Electron Developers</span>
+              <FontAwesomeIcon icon={faArrowRight} />
+            </button>
+          </div>
         </>
 
         {/* 3 */}
@@ -106,10 +108,10 @@ export default function Navbar() {
   );
 }
 
-function LogoName() {
+function LogoName({ className = "" }) {
   return (
     <>
-      <a href="#" id="brand" className="flex gap-2 items-center">
+      <a href="#" id="brand" className={`flex gap-2 items-center ${className}`}>
         <img className="object-cover max-w-12 max-h-12" src={logo} alt="logo" />
         <span className="text-lg font-medium font-display">ToDesktop</span>
       </a>
