@@ -45,7 +45,7 @@ export default function CompaniesFeatures() {
         <div
           id="line4"
           ref={line4Ref}
-          className="-translate-x-24 flex gap-8 p-6"
+          className="-translate-x-96 flex gap-8 p-6"
         >
           <Item>Download Analytics</Item>
           <Item>Custom Menus</Item>
