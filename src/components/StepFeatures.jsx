@@ -19,6 +19,7 @@ export default function StepFeatures() {
   );
 }
 
+// eslint-disable-next-line react/prop-types
 function Steps({ step }) {
   return (
     <div

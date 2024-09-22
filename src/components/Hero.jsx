@@ -74,7 +74,7 @@ export default function Hero() {
             </div>
           </div>
 
-          <h1 className="text-4xl font-semibold leading-snug mt-4 sm:text-6xl">
+          <h1 className="text-4xl font-semibold leading-snug mt-4 sm:text-6xl bg-gradient-to-r from-purple-600  via-indigo-600 to-pink-600 text-transparent bg-clip-text">
             Web app to desktop app in minutes
           </h1>
 
@@ -124,6 +124,18 @@ export default function Hero() {
               <ImageName imgName={c10} />
               <ImageName imgName={c11} />
               <ImageName imgName={c12} />
+              <ImageName imgName={c13} />
+              <ImageName imgName={c14} />
+              <ImageName imgName={c15} />
+              <ImageName imgName={c16} />
+              <ImageName imgName={c17} />
+              <ImageName imgName={c18} />
+              <ImageName imgName={c19} />
+              <ImageName imgName={c20} />
+              <ImageName imgName={c21} />
+              <ImageName imgName={c22} />
+              <ImageName imgName={c23} />
+              <ImageName imgName={c24} />
             </div>
 
             <div
@@ -142,6 +154,15 @@ export default function Hero() {
               <ImageName imgName={c22} />
               <ImageName imgName={c23} />
               <ImageName imgName={c24} />
+              <ImageName imgName={c1} />
+              <ImageName imgName={c2} />
+              <ImageName imgName={c3} />
+              <ImageName imgName={c4} />
+              <ImageName imgName={c5} />
+              <ImageName imgName={c6} />
+              <ImageName imgName={c13} />
+              <ImageName imgName={c14} />
+              <ImageName imgName={c15} />
             </div>
 
             <div
