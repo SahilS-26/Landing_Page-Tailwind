@@ -3,6 +3,7 @@ import Hero from "./components/Hero.jsx";
 import StepFeatures from "./components/StepFeatures.jsx";
 import BentoGrid from "./components/BentoGrid.jsx";
 import CompaniesFeatures from "./components/CompaniesFeatures.jsx";
+import CustomerStories from "./components/CustomerStories.jsx";
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
         <StepFeatures />
         <BentoGrid />
         <CompaniesFeatures />
+        <CustomerStories />
       </main>
     </>
   );
