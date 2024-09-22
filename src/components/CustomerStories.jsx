@@ -1,13 +1,16 @@
 import c32 from "../assets/asset 32.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCheck } from "@fortawesome/free-solid-svg-icons";
+import { faCheck, faCode, faDownload } from "@fortawesome/free-solid-svg-icons";
 import founder from "../assets/asset 33.jpeg";
 import c34 from "../assets/asset 34.png";
+import c35 from "../assets/asset 35.png";
+import c36 from "../assets/asset 36.jpeg";
 
 export default function CustomerStories() {
   return (
     <div id="Testimonials" className="container">
       <h2 className="text-5xl sm:font-semibold mb-14">Customer stories</h2>
+
       <div className="border rounded-xl flex flex-col lg:flex-row items-end">
         <div className="flex flex-col gap-12 p-8">
           <span className="h-4 w-fit">
@@ -52,8 +55,43 @@ export default function CustomerStories() {
           <img src={c34} alt="" className="pl-12" />
         </div>
       </div>
-      <div className="flex flex-col lg:flex-row justify-between gap-4 mt-6">
-        <Card></Card>
+
+      <div className="flex flex-col lg:flex-row justify-between gap-4 mt-16">
+        <Card />
+        <Card />
+        <Card />
+      </div>
+
+      {/* <div className="bg-black rounded-xl flex flex-col lg:flex-row gap-8 p-8 mt-16"> */}
+      <div className="bg-gradient-to-br from-black via-purple-950 to-indigo-950 rounded-xl flex flex-col lg:flex-row gap-8 lg:p-8 mt-16">
+        <div className="flex flex-col gap-8 p-8 lg:flex-1 lg:gap-12">
+          <span className="text-gray-400 font-semibold lg:text-2xl ">
+            READY TO START BUILDING?
+          </span>
+          <h3 className="text-4xl text-white leading-snug lg:text-6xl">
+            Create your desktop app for free*
+          </h3>
+
+          <p className="text-lg font-light text-gray-400 lg:text-2xl">
+            ToDesktop Builder will take you step-by-step through the process of
+            creating your first desktop app in just a few minutes.
+          </p>
+
+          <button className="bg-primary py-2 text-white flex justify-center items-center gap-4 rounded-lg hover:bg-opacity-90">
+            <FontAwesomeIcon icon={faDownload} />
+            <span>Download ToDeskop Builder</span>
+          </button>
+
+          <p className="text-gray-400 text-xs italic">
+            *You can create a desktop app and run it on your computer for free.
+            You will only be charged if you want to create a distributable app
+            for your customers.
+          </p>
+        </div>
+
+        <div className="lg:w-1/2 self-end lg:translate-y-8 lg:translate-x-8">
+          <img src={c34} alt="" className="pl-12" />
+        </div>
       </div>
     </div>
   );
@@ -70,5 +108,42 @@ function Tag({ children }) {
 }
 
 function Card() {
-  return <div></div>;
+  return (
+    <div className="group rounded-2xl gradient-hover-outer">
+      <div className=" flex flex-col gap-6 rounded-2xl gradient-hover-inner">
+        <div className="flex gap-4 items-center">
+          <div className="w-12 h-12 bg-blue-200 flex justify-center items-center rounded-full">
+            <FontAwesomeIcon icon={faCode} />
+          </div>
+          <h3 className="text-2xl font-semibold">Native APIs</h3>
+        </div>
+
+        <p className="text-lg font-light text-justify ">
+          What sets ToDesktop apart is its seamless integration with native APIs
+          using our existing web codebase. By tapping into APIs like Tray and
+          Notifications, we've crafted an exceptionally polished desktop user
+          experience.
+        </p>
+
+        <div className="flex gap-4">
+          <div className="flex">
+            <div className=" -mr-3 w-12 h-12 flex justify-center items-center rounded-full overflow-hidden border border-white">
+              <img src={c35} alt="" className="min-w-16 min-h-16" />
+            </div>
+
+            <div className="h-12 w-12 rounded-full overflow-hidden border border-white">
+              <img src={c36} alt="" />
+            </div>
+          </div>
+
+          <div className="flex flex-col ">
+            <h3>Rick Pastoor</h3>
+            <a href="#" className="anchor-link w-fit text-gray-500 ">
+              Rise
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }

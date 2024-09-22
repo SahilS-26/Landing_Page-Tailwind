@@ -41,11 +41,13 @@ export default function BentoGrid() {
 function Item({ title, imgName, className, text = "" }) {
   return (
     <div
-      className={`group rounded-2xl gradient-hover-outer ${
+      className={` group rounded-2xl gradient-hover-outer ${
         className ? className : ""
       }`}
     >
-      <div className={`rounded-2xl gradient-hover-inner `}>
+      <div
+        className={`flex flex-col items-center text-center rounded-2xl gradient-hover-inner `}
+      >
         <h3 className="text-2xl">{title}</h3>
         {text && <p>{text}</p>}
         <img src={imgName} alt="" />
