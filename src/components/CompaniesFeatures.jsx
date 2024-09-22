@@ -42,7 +42,11 @@ export default function CompaniesFeatures() {
   return (
     <div id="features-line" className="container">
       <div className="border rounded-lg p-4 justify-center overflow-hidden">
-        <div id="line4" ref={line4Ref} className="flex gap-8 p-6">
+        <div
+          id="line4"
+          ref={line4Ref}
+          className="-translate-x-24 flex gap-8 p-6"
+        >
           <Item>Download Analytics</Item>
           <Item>Custom Menus</Item>
           <Item>Multi-window support</Item>
