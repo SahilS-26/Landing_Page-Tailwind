@@ -1,6 +1,8 @@
 import Navbar from "./components/Navbar.jsx";
 import Hero from "./components/Hero.jsx";
 import StepFeatures from "./components/StepFeatures.jsx";
+import BentoGrid from "./components/BentoGrid.jsx";
+import CompaniesFeatures from "./components/CompaniesFeatures.jsx";
 
 export default function App() {
   return (
@@ -9,6 +11,8 @@ export default function App() {
       <main>
         <Hero />
         <StepFeatures />
+        <BentoGrid />
+        <CompaniesFeatures />
       </main>
     </>
   );
@@ -26,6 +30,7 @@ const initialTranslateRTL = 36 * 4;
 const line1 = document.getElementById("line1");
 const line2 = document.getElementById("line2");
 const line3 = document.getElementById("line3");
+const line4 = document.getElementById("line4");
 
 // Scroll animation effect
 function setupIntersectionObserver(el, isLTR, speed) {
@@ -59,4 +64,5 @@ function setupIntersectionObserver(el, isLTR, speed) {
 setupIntersectionObserver(line1, true, 0.15);
 setupIntersectionObserver(line2, false, 0.15);
 setupIntersectionObserver(line3, true, 0.15);
+setupIntersectionObserver(line4, true, 0.80);
 */

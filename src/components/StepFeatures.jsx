@@ -5,10 +5,7 @@ import c27 from "../assets/asset 27.svg";
 export default function StepFeatures() {
   return (
     <>
-      <div
-        id="steps"
-        className="px-6 py-12 lg:px-8 flex flex-col gap-6 mt-20 container mx-auto"
-      >
+      <div id="steps" className="flex flex-col gap-6 container ">
         <h2 className="text-5xl sm:font-semibold mb-4">How it works</h2>
 
         <Steps step="Step 1" />

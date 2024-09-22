@@ -18,4 +18,12 @@
   h3 {
     @apply font-display text-gray-800 font-medium;
   }
+
+  .container {
+    @apply px-6 py-12 max-w-7xl mt-20 lg:px-8 mx-auto;
+  }
 }
+
+/* 
+<div class="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
+*/
