@@ -13,7 +13,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="p-3 bg-white flex justify-between items-center ">
+      <nav className="p-3 bg-white flex justify-between items-center fixed top-0 left-0 right-0 z-20 shadow-md">
         {/* 1 */}
         <LogoName className="flex-1" />
 
@@ -108,6 +108,7 @@ export default function Navbar() {
   );
 }
 
+// eslint-disable-next-line react/prop-types
 function LogoName({ className = "" }) {
   return (
     <>

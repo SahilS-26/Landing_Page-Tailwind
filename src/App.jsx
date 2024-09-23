@@ -5,10 +5,12 @@ import BentoGrid from "./components/BentoGrid.jsx";
 import CompaniesFeatures from "./components/CompaniesFeatures.jsx";
 import CustomerStories from "./components/CustomerStories.jsx";
 import Pricing from "./components/Pricing.jsx";
+import Faqs from "./components/Faqs.jsx";
+import Footer from "./components/Footer.jsx";
 
 export default function App() {
   return (
-    <>
+    <div className="relative">
       <Navbar />
       <main>
         <Hero />
@@ -17,8 +19,10 @@ export default function App() {
         <CompaniesFeatures />
         <CustomerStories />
         <Pricing />
+        <Faqs />
+        <Footer />
       </main>
-    </>
+    </div>
   );
 }
 

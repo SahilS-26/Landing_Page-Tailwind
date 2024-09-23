@@ -84,7 +84,7 @@ export default function CustomerStories() {
               of creating your first desktop app in just a few minutes.
             </p>
 
-            <button className="bg-primary px-2 py-2 text-white flex justify-center items-center gap-4 rounded-lg hover:bg-opacity-90">
+            <button className="bg-primary  py-2 text-white flex justify-center items-center gap-4 rounded-lg hover:bg-opacity-90">
               <FontAwesomeIcon icon={faDownload} />
               <span>Download ToDeskop Builder</span>
             </button>

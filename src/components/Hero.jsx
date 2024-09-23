@@ -14,7 +14,7 @@ export default function Hero() {
     <>
       <div
         id="hero"
-        className="min-h-screen bg-gradient-to-b from-purple-50 via-orange-50 to-trasparent"
+        className="min-h-screen bg-gradient-to-b from-purple-50 via-orange-50 to-trasparent pt-16"
       >
         <div
           id="hero-container"

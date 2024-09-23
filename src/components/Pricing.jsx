@@ -4,7 +4,7 @@ import { faCheck, faXmark } from "@fortawesome/free-solid-svg-icons";
 export default function Pricing() {
   return (
     <div id="pricing" className="container">
-      <h2 className="text-3xl md:text-5xl lg:text-6xl font-semibold">
+      <h2 className="h2-style font-semibold ">
         Choose a plan that fits your needs
       </h2>
       <div className="flex flex-col lg:flex-row justify-between gap-8 mt-8">
