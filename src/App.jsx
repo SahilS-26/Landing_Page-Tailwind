@@ -4,6 +4,7 @@ import StepFeatures from "./components/StepFeatures.jsx";
 import BentoGrid from "./components/BentoGrid.jsx";
 import CompaniesFeatures from "./components/CompaniesFeatures.jsx";
 import CustomerStories from "./components/CustomerStories.jsx";
+import Pricing from "./components/Pricing.jsx";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         <BentoGrid />
         <CompaniesFeatures />
         <CustomerStories />
+        <Pricing />
       </main>
     </>
   );

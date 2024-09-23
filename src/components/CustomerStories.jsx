@@ -10,7 +10,7 @@ export default function CustomerStories() {
   return (
     <div className="bg-gradient-to-br from-black via-purple-950 to-indigo-950 pt-2 pb-2 ">
       <div id="Testimonials" className="container">
-        <h2 className="text-5xl lg:text-6xl  sm:font-semibold lg:font-bold mb-14 bg-gradient-to-r from-purple-800 via-indigo-400 to-transparent text-transparent bg-clip-text ">
+        <h2 className="text-white text-5xl lg:text-6xl  sm:font-semibold lg:font-bold mb-14 ">
           Customer stories
         </h2>
 
